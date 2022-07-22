@@ -49,7 +49,7 @@ if menu == '회원가입':
 if menu == '텍스트입력':
     st.subheader('텍스트입력')
 
-    title = st.text_input('Movie title' , 'Life of Brian')
+    title = st.text_input('아래 글을 입력하세요' , 'Life of Brian')
     st.write(title)
     color = st.color_picker('색갈을 지정하시오' , '#00f900')
     st.write('현재 색깔은' , color)
